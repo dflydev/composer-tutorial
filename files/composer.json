@@ -1,0 +1,5 @@
+{
+    "autoload": {
+        "files": ["my-app-demo.php"]
+    }
+}
