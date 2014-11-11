@@ -1,0 +1,8 @@
+{
+    "name": "my/aura-router-project",
+    "description": "Simple project using Aura's Router",
+    "license": "MIT",
+    "require": {
+        "aura/router": "~2.2"
+    }
+}

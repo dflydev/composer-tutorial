@@ -1,0 +1,6 @@
+{
+    "repositories": [
+        {"type": "composer", "url": "http://toran.composertut.local/repo/packagist/"},
+        {"packagist": false}
+    ]
+}
