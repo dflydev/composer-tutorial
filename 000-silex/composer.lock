@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "29c2c05130a1a138d6eba188dc4da33f",
+    "content-hash": "0f31d3d1f948655f2fa46d1a24bc5d55",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -215,7 +216,7 @@
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Debug.git",
+                "url": "https://github.com/symfony/debug.git",
                 "reference": "2538d5099b9728b6ca09b261566a766f4f847459",
                 "mirrors": [
                     {
@@ -226,7 +227,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/2538d5099b9728b6ca09b261566a766f4f847459",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/2538d5099b9728b6ca09b261566a766f4f847459",
                 "reference": "2538d5099b9728b6ca09b261566a766f4f847459",
                 "shasum": "",
                 "mirrors": [
@@ -282,7 +283,7 @@
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/EventDispatcher.git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
                 "reference": "804eb28dbbfba9ffdab21fe2066744906cea2212",
                 "mirrors": [
                     {
@@ -293,7 +294,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/804eb28dbbfba9ffdab21fe2066744906cea2212",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/804eb28dbbfba9ffdab21fe2066744906cea2212",
                 "reference": "804eb28dbbfba9ffdab21fe2066744906cea2212",
                 "shasum": "",
                 "mirrors": [
@@ -347,30 +348,18 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.5.6",
+            "version": "v2.5.12",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "56111fc8ba8bcad93d367532babecc6ce17f66ce",
-                "mirrors": [
-                    {
-                        "url": "guest@hostname:mirrors/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "08e783861dd9579bac4092814bbfb0cae6666b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/56111fc8ba8bcad93d367532babecc6ce17f66ce",
-                "reference": "56111fc8ba8bcad93d367532babecc6ce17f66ce",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://toran.composertut.local/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/08e783861dd9579bac4092814bbfb0cae6666b65",
+                "reference": "08e783861dd9579bac4092814bbfb0cae6666b65",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -408,7 +397,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-10-24 05:49:22"
+            "time": "2015-04-01 15:49:36"
         },
         {
             "name": "symfony/http-kernel",
@@ -416,7 +405,7 @@
             "target-dir": "Symfony/Component/HttpKernel",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/HttpKernel.git",
+                "url": "https://github.com/symfony/http-kernel.git",
                 "reference": "cf8f6935f383cf5501499fef7677c36d4205e398",
                 "mirrors": [
                     {
@@ -427,7 +416,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/cf8f6935f383cf5501499fef7677c36d4205e398",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/cf8f6935f383cf5501499fef7677c36d4205e398",
                 "reference": "cf8f6935f383cf5501499fef7677c36d4205e398",
                 "shasum": "",
                 "mirrors": [
@@ -579,6 +568,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
